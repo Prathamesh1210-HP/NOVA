@@ -218,7 +218,7 @@ def start():
             kit.playonyt(f"{yt}")
             speak("Done sir.")
 
-        elif "check instagram profile" in query or "check profile on instagram" in query:
+        elif "check instagram profile" in query or "check profile on instagram " in query:
             speak("sir please enter the user name correctly.")
             name = input("Enter username here :")
             webbrowser.open(f"www.instagram.com/{name}")
