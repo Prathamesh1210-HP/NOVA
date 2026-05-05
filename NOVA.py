@@ -6,11 +6,11 @@ import speech_recognition as sr
 import os
 import cv2
 import random
-from requests import get
+from requests import  get
 import requests
 import wikipedia
 import webbrowser
-import pywhatkit as   kit
+import pywhatkit as kit
 import smtplib 
 import sys
 import time
@@ -58,10 +58,10 @@ def takecommand():
 def wishme():
     hour = int(datetime.datetime.now().hour)
     pt = time.strftime("%I:%M %p")
-    if hour>=0 and hour<12:
+    if hour >= 0 and hour <12 :
         speak(f"Good morning sir!, its {pt}")
 
-    elif hour>=12 and hour<18:
+    elif hour >= 12 and hour < 18:
         speak(f"Good Afternoon sir!, its {pt}")
 
     else:
