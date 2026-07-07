@@ -54,7 +54,7 @@ def closeappweb(query):
         sleep(0.5)
         pyautogui.hotkey("ctrl","w")
         sleep(0.5)
-        speak("sir, All tabs are closed")
+        speak("sir, All tabs are closed ")
     elif "four tab" in query or "4 tab" in query:
         pyautogui.hotkey("ctrl","w")
         sleep(0.5)
