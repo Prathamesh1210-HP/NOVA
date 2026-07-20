@@ -6,7 +6,7 @@ import speech_recognition as sr
 import os
 import cv2
 import random
-from requests import  get
+from requests import get
 import requests
 import wikipedia
 import webbrowser
@@ -38,7 +38,7 @@ def takecommand():
 #it takes microphone input from input and returns strring output
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Listening...")
+        print("Listening.....")
         r.pause_threshold = 1
         audio = r.listen(source)
 
