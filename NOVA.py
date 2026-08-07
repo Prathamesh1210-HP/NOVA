@@ -38,7 +38,7 @@ def takecommand():
 #it takes microphone input from input and returns strring output
     r = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Listening.....")
+        print("Listening....")
         r.pause_threshold = 1
         audio = r.listen(source)
 
