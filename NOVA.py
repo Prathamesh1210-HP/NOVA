@@ -1,5 +1,5 @@
 # N.O.V.A. – Neural Optimized Virtual Assistant
-import pyttsx3
+import pyttsx3 
 import datetime
 from time import sleep
 import speech_recognition as sr
